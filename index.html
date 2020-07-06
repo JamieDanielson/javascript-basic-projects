@@ -4,12 +4,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Jamie's JavaScript Projects</title>
+  <!-- [1] -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  ​
+  <!-- [2] -->
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;400;600&family=Sen:wght@400;700&display=swap" />
+  ​
+  <!-- [3] -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;400;600&family=Sen:wght@400;700&display=swap"
+    media="print" onload="this.media='all'" />
+  ​
+  <!-- [4] -->
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;400;600&family=Sen:wght@400;700&display=swap" />
+  </noscript>
 </head>
 
 <body>
-  <a href="/1-color-flipper/index.html" class="project">
-    First Project</a>
+  <nav>
+  </nav>
+  <main>
+    <section class="hero">
+      <h1>Jamie's JavaScript Projects</h1>
+    </section>
+    <section class="projects">
+      <div class="card">
+        <div class="card-thumbnail">
+          <img src="/images/color-flipper-thumbnail.PNG" alt="color flipper thumbnail" />
+        </div>
+        <a href="/1-color-flipper/index.html" class="project-name">
+          Color Inspo</a>
+      </div>
+      <div class="card">
+        <div class="card-thumbnail">
+          <img src="https://via.placeholder.com/466x747" alt="color flipper thumbnail" />
+        </div>
+        <a href="#" class="project-name">
+          Project 2</a>
+      </div>
+      <div class="card">
+        <div class="card-thumbnail">
+          <img src="https://via.placeholder.com/466x747" alt="project thumbnail" />
+        </div>
+        <a href="#" class="project-name">
+          Project 3</a>
+      </div>
+
+    </section>
+    <section class="notes">
+      From John Smilga's <a
+        href="https://github.com/john-smilga/javascript-basic-projects">javascript-basic-projects</a>.
+
+      John's original projects are found <a href="https://www.vanillajavascriptprojects.com/">here</a>. I am going
+      through these
+      projects and then updating with my own changes to expand upon them.
+    </section>
+    <footer>
+      Made by Jamie
+    </footer>
+  </main>
 </body>
 
 </html>
